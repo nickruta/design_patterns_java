@@ -1,4 +1,4 @@
-package com.nickruta.design_patterns_java.behavioral_strategy;
+package behavioral_strategy;
 
 // Take what varies and 'encapsulate' it so it won't affect the rest of your code
 public class DriveFastAndFurious implements DriveBehavior {

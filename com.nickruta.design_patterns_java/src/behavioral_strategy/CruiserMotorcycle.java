@@ -1,4 +1,4 @@
-package com.nickruta.design_patterns_java.behavioral_strategy;
+package behavioral_strategy;
 
 public class CruiserMotorcycle extends Motorcycle {
 	
