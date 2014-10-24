@@ -1,0 +1,10 @@
+package com.nickruta.design_patterns_java.behavioral_strategy;
+
+public class DriveFastAndFurious implements DriveBehavior {
+
+	@Override
+	public void drive() {
+		System.out.println("I'm driving fast and furious!");
+	}
+
+}

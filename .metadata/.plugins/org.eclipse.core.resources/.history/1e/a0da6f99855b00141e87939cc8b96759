@@ -1,0 +1,10 @@
+DESIGN PATTERN - STRATEGY
+TYPE - BEHAVIORAL
+
+The Strategy pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable. Stratgey lets the algorithm vary independently from clients that use it.
+
+The "Client" (Motorcycle - Cruiser and Sport) makes use of an encapsulated family of algorithms (DriveBehavior) for Driving. 
+
+The set of behaviors, DriveAtEase and DriveFastAndFurious are a family of algorithms named DriveBehavior.
+
+The algorithms are interchangeable.
