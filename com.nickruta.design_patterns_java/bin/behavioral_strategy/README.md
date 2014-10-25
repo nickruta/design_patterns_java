@@ -1,5 +1,8 @@
 DESIGN PATTERN - STRATEGY
+==============
+
 TYPE - BEHAVIORAL
+--------------
 
 Favor composition over inheritance - using composition gives more flexibility. It lets you encapsulate a family of algorithms into their own set of classes, but also lets you change behavior at runtime as long as the object you're composing with implements the correct behavior interface. 
 
