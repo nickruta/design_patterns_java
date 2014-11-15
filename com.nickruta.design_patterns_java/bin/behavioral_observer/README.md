@@ -10,5 +10,12 @@ This example uses the Java built-in Observer Pattern - java.util.Observer & java
 
 The pull method is used for the observer, ChannelingDisplay, to grab Stock price changes from the subject(observable) StockData
 
+**Examples of the Observer Pattern in the JDK include**
+
+java.util.Observer/Observable
+javax.servlet.http.HttpSessionBindingListener
+javax.servlet.http.HttpSessionAttributeListener
+javax.faces.event.PhaseListener
+
 
 

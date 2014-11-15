@@ -14,3 +14,9 @@ The set of behaviors, DriveAtEase and DriveFastAndFurious are a family of algori
 
 The algorithms are interchangeable.
 
+**Examples of the Strategy Pattern in the JDK include**
+
+java.util.Comparator#compare()
+javax.servlet.http.HttpServlet
+javax.servlet.Filter#doFilter()
+

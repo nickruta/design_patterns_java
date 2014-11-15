@@ -16,6 +16,12 @@ If we rely only on inheritance, we get only whatever behavior the superclass giv
 
 Java I/O points out one of the downsides of the Decorator Pattern - design using this pattern often result in a large number of small classes that can be overwhelming to a developer trying to use the Decorator-based API.
 
+Examples include - 
+
+java.io.InputStream/OutputStream/Reader/Writer
+java.util.Collections#checkedXXX()/synchronizedXXX()/unmodifiableXXX()
+javax.servlet.http.HttpServletRequestWrapper/HttpServletResponseWrapper
+
 
 
 
