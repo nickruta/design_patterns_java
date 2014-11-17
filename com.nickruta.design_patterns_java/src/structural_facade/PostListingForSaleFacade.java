@@ -9,7 +9,7 @@ public class PostListingForSaleFacade {
 	
 	public PostListingForSaleFacade(EmailTransmitter emailTransmitter, PricePropagator pricePropagator, ListingsUpdater listingsUpdater) {
 		
-		// The facade is passed a referene to each component of the subsystem in its constructor. 
+		// The facade is passed a reference to each component of the subsystem in its constructor. 
 		this.emailTransmitter = emailTransmitter;
 		this.pricePropagator = pricePropagator;
 		this.listingsUpdater = listingsUpdater;
