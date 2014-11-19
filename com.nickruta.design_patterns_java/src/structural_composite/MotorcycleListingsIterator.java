@@ -1,4 +1,4 @@
-package behavioral_iterator;
+package structural_composite;
 
 import java.util.Iterator;
 
@@ -6,11 +6,11 @@ import java.util.Iterator;
 public class MotorcycleListingsIterator implements Iterator {
 	
 	// position maintains the current position of the iteration over the array
-	ListingsItem[] list;
+	structural_composite.ListingsItem[] list;
 	int position = 0;
 	
 	// the constructor takes the array of menu items we are going to iterate over
-	public MotorcycleListingsIterator(ListingsItem[] listingsItems) {
+	public MotorcycleListingsIterator(structural_composite.ListingsItem[] listingsItems) {
 		this.list = listingsItems;
 	}
 

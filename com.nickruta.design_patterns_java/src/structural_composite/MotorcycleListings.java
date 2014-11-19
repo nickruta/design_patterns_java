@@ -1,8 +1,8 @@
-package behavioral_iterator;
+package structural_composite;
 
 import java.util.Iterator;
 
-public class MotorcycleListings implements Listings {
+public class MotorcycleListings extends Listings {
 	
 	static final int MAX_ITEMS = 3;
 	int numberOfItems = 0;
@@ -37,7 +37,8 @@ public class MotorcycleListings implements Listings {
 	@Override
 	public Iterator createIterator() {
 		
-		// returning the Iterator interface. The client doesn't need to know how the Items are maintained in the MotorcycleListings nor does it need to know how the 
+		// returning the Iterator interface. The client doesn't need to know how the Items are maintained in the MotorcycleListings 
+		// nor does it need to know how the 
 		// MotorcycleListingsIterator is implemented. It just needs to use the iterators to step through the items in the Listings
 		return new MotorcycleListingsIterator(listingsItems);
 	}

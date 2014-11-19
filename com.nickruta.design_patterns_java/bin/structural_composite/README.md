@@ -1,14 +1,14 @@
-DESIGN PATTERN - COMMAND
+DESIGN PATTERN - COMPOSITE
 ==============
-TYPE - BEHAVIORAL
+TYPE - STRUCTURAL
 --------------
 
-The **Command** pattern encapsulates a request as an object, thereby letting you parameterize other objects with 
-different requests, queue or log requests, and support undoable operations.
+The **Composite** pattern allows you to compose objects into TREE structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
 
-The **Meta Command Pattern** allows you to create macros of commands so that you can can execute multiple commands at once.
+Using a composite structure, we can apply the same operations over both composites and individual objects. In other words, in most cases we can ignore the differences between compositions of objects and individual objects. 
+   
 
-**Examples of the Command Pattern in the JDK include**
+**Examples of the Composite Pattern in the JDK include**
 
-java.lang.Runnable
-javax.swing.Action
+ java.awt.Container#add(Component) (practically all over Swing thus)
+ javax.faces.component.UIComponent#getChildren() (practically all over JSF UI thus)
