@@ -14,6 +14,8 @@ The set of behaviors, DriveAtEase and DriveFastAndFurious are a family of algori
 
 The algorithms are interchangeable.
 
+Think of the Strategy Pattern as a flexible alternative to subclassing; if you use inheritance to define the behavior of a class, then you're stuck with that behavior even if you end to change it. With Strategy you can change the behavior by composing with a different object.
+
 **Examples of the Strategy Pattern in the JDK include**
 
 java.util.Comparator#compare()

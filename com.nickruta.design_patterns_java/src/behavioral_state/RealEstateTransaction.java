@@ -1,5 +1,6 @@
 package behavioral_state;
 
+// CONTEXT - this class is the Context which can have a number of internal states
 public class RealEstateTransaction {
 	
 	// here are the three states	
